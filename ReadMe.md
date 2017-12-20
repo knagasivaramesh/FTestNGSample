@@ -1,36 +1,13 @@
-- Framework - JUnit with Page Object Model
-- Design Pattern - Singleton Design Pattern
-- Build Tool - Maven
+•	It should contain common code for both Android & iOS wherever it is possible. i.e. only the specific inevitable parts of framework should allow separate code. Add ToDo comments or dummy files wherever iOS related code will come into picture (assume iOS app also exists with similar functionality)
+>>This framework will support both iOS and android apps it should be configured platform name if android or iOS in properties file
 
-Working Environment:
+•	Identify the problematic areas of this app and suggest better guidelines to developer to ensure best fit to automation
+>>Developer need to declared every element as attributes and check whether auto correction is removed or not
 
-- Java - 1.8
-- Selenium - 3.4
-- Firefox Browser - 57.0
-- Chrome Browser  -  60.0
-- Platform - macOS Sierra
+•	Maintenance of the code should be high i.e. report generation and tying it to Jenkins dashboard should be configurable in future with minimal changes
+>>Already added the report thing it will be easily integrated with the jenkins 
 
-Framework Description:
+•	Don’t miss to add REST API calls related chunk in this framework. BTW, the app fetches some content on Dashboard from Firebase cloud via Rest API
+>>Added the Rest API calls and verified 
 
-- config.properties file contains the configuration details like browsername and url
-- Currently this framework template has capable to run the scripts on Firefox and Chrome (on MAC OS)
-- Controlling browser using the config property file (webdriver.browser property in config file)
- 
-- BasePage class contains all the wrapper and reusable methods and this class is parent class for all the remaining page classes
-- All the page classes contains respective page methods
-
-- BaseTest class contains all the test related reusable methods like driver initialization and quit and this class is parent class for all the remaining test script classes
-- TestScript class contains scripts for particular module
-- TestSuite class contains all the script classes
-
-
-To Run the scripts:
-
-- Navigate to project root folder from Command Link
-- And Run following command (prerequisite - Maven home path should be added to environment variables)
-
-**mvn test**
-
-
-*Note: Tested this framework template on MAC os only *
 
