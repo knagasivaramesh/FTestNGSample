@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46831" started-at="2017-11-24T06:15:59Z" finished-at="2017-11-24T06:16:46Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46831" started-at="2017-11-24T06:15:59Z" finished-at="2017-11-24T06:16:46Z">
+      <class name="com.test.scripts.TestScripts">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.test.scripts.TestScripts@38082d64]" name="initDriver" is-config="true" duration-ms="31920" started-at="2017-11-24T11:45:59Z" finished-at="2017-11-24T11:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="TestTaskOne()[pri:0, instance:com.test.scripts.TestScripts@38082d64]" name="TestTaskOne" duration-ms="14401" started-at="2017-11-24T11:46:31Z" finished-at="2017-11-24T11:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTaskOne -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.scripts.TestScripts@38082d64]" name="tearDown" is-config="true" duration-ms="452" started-at="2017-11-24T11:46:45Z" finished-at="2017-11-24T11:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.scripts.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

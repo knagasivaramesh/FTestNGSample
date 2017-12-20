@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.utils.ReportLisener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.test.scripts.TestScripts_002">
+        <methods>
+          <include name="TestTaskTwo"/>
+          <include name="launch"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- com.test.scripts.TestScripts_002 -->
+      <class name="com.test.scripts.TestScripts_001">
+        <methods>
+          <include name="launch"/>
+          <include name="TestTaskOne"/>
+          <include name="Quit"/>
+        </methods>
+      </class> <!-- com.test.scripts.TestScripts_001 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
